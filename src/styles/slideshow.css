@@ -1,0 +1,26 @@
+
+.slide-container {
+    width: 70%;
+    margin: auto;
+   padding-top: 4%;
+}
+  
+
+  h3 {
+    text-align: center; }
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 200px;
+  }
+  
+  .each-slide span {
+    padding: 5px;
+    font-size: 12px;
+    background: #efefef;
+    text-align: center;
+  }
+

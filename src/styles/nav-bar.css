@@ -1,0 +1,286 @@
+/* .nav {
+    padding-left: 196px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right,#80C0BE,#7ed0ef);
+    padding-top: 10px;
+}
+
+.nav-bar ul {
+    margin: 0 ;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.nav-bar {
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
+}
+
+.nav-pills {
+    background-color: #909192;
+}
+
+.nav-item a {
+    color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1e7da0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-logout {
+    position: absolute;
+    right: 37.5px;
+    cursor: pointer;
+} */
+
+.navbar.topNav {
+    margin: 10px 0;
+    background: #4da57c;
+    border-radius: 5px;
+}
+
+
+.nav-logout{
+    right: 15px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.nav-notification{
+    right: 8em;
+    top: 0.7em;
+    position: absolute;
+    cursor: pointer;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    color: #FFF;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.dataops-nav-bar .nav-link.active {
+    background: #77af4e;
+}
+
+.user-info-modal{
+        margin-top: 25px;
+    margin-left: -285px;
+    width: 370px;
+    height: 200px;
+    position: absolute;
+}
+.notification-modal{
+    margin-top: 42px;
+    margin-left: -330px;
+    width: 370px;
+    height: 300px;
+    position: absolute;
+}
+.user-info-modal .user-info-content .user-info-body{
+    overflow-y: unset;
+    max-height: none;
+}
+.user-info-modal .user-info-content .user-info-body p{
+    text-transform: none;
+    text-align: left;
+    margin-top: 5px;
+   
+    word-wrap: break-word;
+}
+
+/* .user-info-modal .user-info-content .user-info-body i{
+   
+} */
+
+.user-info-modal .user-info-content .user-info-body .user-info-signout-btn{
+    text-transform: uppercase;
+    padding: .375rem .75rem;
+}
+.user-info-signout-btn{
+border: 0;
+    background: #4da57c;
+    border-radius: 15px;
+    font-size: 1em;
+    float: right;
+}
+
+.account{
+     font-size: 1.3em;
+    padding-right: 0.5em;
+}
+
+
+.email{
+    padding-right: 1em;
+    font-size: 1em;
+}
+
+.notification-modal .notification-content .notification-body {
+    overflow: auto;
+}
+
+.notification-modal .notification-content .notification-body p{
+    text-transform: none;
+    text-align: left;
+    margin-top: 5px;
+    color: #51576d;
+    word-wrap: break-word;
+}
+
+.notification-modal .notification-content .notification-body .notification-status {
+    color: #51576D;
+}
+
+.notification-modal .notification-content .notification-body .notification-status .success-icon {
+    color: green;
+    margin-right: 10px;
+    font-size: 1.4em;
+    float: left;
+}
+
+.notification-modal .notification-content .notification-body .notification-status .failure-icon {
+    color: red;
+    margin-right: 10px;
+    font-size: 1.4em;
+    float: left;
+}
+.userEmail{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notification-spinner {
+    text-align: center;
+    color: white
+}
+
+.notification-spinner .spinner {
+    margin: 10px auto 0;
+    width: 70px;
+    text-align: center;
+   }
+    
+   .notification-spinner .spinner > div {
+    width: 10px;
+    height: 10px;
+    background-color: #4DA57C;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+   }
+    
+   .notification-spinner .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+   }
+    
+   .notification-spinner .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+   }
+    
+   @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+   }
+    
+   @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    }
+   }
+
+   #notificationModal{
+       padding-right: 0 !important;
+   }
+
+   #notificationModal .modal-body{
+        max-height: none;
+   }
+
+   #notificationModal .modal-dialog{
+       margin: 0 !important;
+   }
+
+   #notificationModal .modal-content{
+       border: 0;
+   }
+
+   #notificationModal .no-notification .alert{
+       background: none;
+       border: none;
+       border-bottom: 1px solid #CCC;
+       color: #FFF;
+       border-radius: 0;
+   }
+
+   #notificationModal .no-notification .alert:hover{
+       background: #2f343b !important
+   }
+
+.nav-subscription {
+    right: 10em;
+    top: 1em;
+    position: absolute;
+    cursor: pointer;
+}
+
+.nav-subscription .subscription-content .subscription-body {
+    overflow: auto;
+}
+
+.multi-select-subscription .picky__dropdown {
+    color: black;
+}
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    color:#04BCAA;
+    background: #04BCAA;;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
